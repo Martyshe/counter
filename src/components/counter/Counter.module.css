@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    border: rgb(51, 163, 233) 5px solid;
+    margin: 10% auto;
+    max-width: 50%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .counter {
+    background-color: rgb(51, 163, 233);
+    padding: 50px 100px;
+    margin: 0 auto;
+    font-size: 100px;
+    font-weight: bold;
+    color: #7bd01a;
+    width: 100%;
+  }
+
+  .maxCounter {
+    color: red;
+  }
+
+  .btnWrap{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border: rgb(51, 163, 233) 5px solid;
+    padding: 20px;
+    width: 100%;
+  }
+  
