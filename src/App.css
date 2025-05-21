@@ -4,11 +4,21 @@
   box-sizing: border-box;
 }
 
+*:focus{
+  outline: rgb(51, 163, 233) 2px solid;
+
+}
+
 .App {
   background-color: #252323;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 1px;
   overflow: hidden;
+  width: 100vw;
+}
+
+button{
+  cursor: pointer;
 }
 
 button:hover{

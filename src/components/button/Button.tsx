@@ -2,7 +2,7 @@ import s from './Button.module.css'
 type Props = {
     title: string
     onClick?: ()=>void
-    disabled: boolean
+    disabled?: boolean
 }
 
 export function Button({ title, onClick, disabled }: Props) {
